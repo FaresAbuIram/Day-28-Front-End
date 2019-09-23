@@ -1,0 +1,104 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    display: flex;
+    
+}
+
+input {
+    position: relative;
+    color: #000;
+    width:635px;
+    height: 45px;
+    padding: 1px;
+    margin-top: 22px;
+    margin-left:28px;
+    border-radius:30px;
+    border-color: rgb(235, 233, 233);
+    border-width: 1px;
+    text-indent: 30px;
+    border-bottom-style: groove;
+    border-right-style: groove;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px ;
+    
+}
+.profile img
+{
+    width: 15%;
+    height: 50%;
+    margin-left:380%;
+    padding-left: 100%;
+    margin-top: 28px;
+
+}
+.logo img{
+    
+    width: 5%;
+    height: 40%;
+    margin-left: 158%;
+    margin-top: 33px;
+
+
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    
+    }
+  
+  li {
+    float: left;
+    margin-left: 10px;
+    font-size: 20px;
+    }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    li:first-child{
+        border-bottom: 2px solid rgb(29, 9, 207);
+        padding-bottom: 5px;
+    
+    }
+.result{
+    color: rgb(131, 128, 128);
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+a.s1{
+    color: blue;
+    cursor: pointer;
+    margin-left: 50px;
+    font-size: 25px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+a.s1:hover{
+     border-bottom: 2px solid rgb(29, 9, 207);
+}
+h1{
+    margin-top: 30px; 
+}
+h2{
+    color: rgb(32, 204, 89);
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 1px;
+    font-size: 20px;
+}
+p{
+    margin-left: 50px;
+    margin-top: 1px;
+    color: #000;
+}
